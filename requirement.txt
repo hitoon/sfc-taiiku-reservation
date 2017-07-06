@@ -1,0 +1,2 @@
+mechanize==0.3.5
+beautifulsoup4==4.6.0
