@@ -1,9 +1,8 @@
 # sfc-taiiku-auto-reservation
 ====
 
-Overview
+##Overview
 
-## Description
 SFCの体育の授業を予約します．
 
 ## Requirement
@@ -11,6 +10,7 @@ SFCの体育の授業を予約します．
 
     ```console
     $ pip install -r requirement.txt
+    
     ```
 
 ## Usage
