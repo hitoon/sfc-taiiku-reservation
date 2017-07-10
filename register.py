@@ -152,11 +152,6 @@ def pickupdow(day):
     return dow
 
 
-def select_class(freedf, event_rows):
-
-    return new_event_rows
-
-
 if __name__== '__main__':
     # config.txtの読み込み
     config = ConfigParser.SafeConfigParser()
@@ -175,16 +170,11 @@ if __name__== '__main__':
     br, res_html = login(name, pwd)
     # 予約ボタンの取得
     br, event_rows, free_url = get_status(br, res_html, event)
-    for i in event_rows:
-        print i
 
     # 全予約ボタンから空いてる授業のみ選択
-    event_rows = select_class(freedf, event_rows)
+    #event_rows = select_class(freedf, event_rows)
 
-    """
-    
     # 予約
     #複数空きがあればループする
     for event_row in event_rows:
         register(br, event_row, free_url)
-        """
