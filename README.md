@@ -1,7 +1,6 @@
 # sfc-taiiku-auto-reservation
-====
 
-##Overview
+## Overview
 
 SFCの体育の授業を予約します．
 
