@@ -7,8 +7,9 @@ SFCの体育の授業を予約します．
 ## Requirement
 -python2
 
-    ```
-    $ pip install -r requirement.txt
+    ```console
+    $pip install -r requirement.txt
+    
     ```
 
 ## Usage
