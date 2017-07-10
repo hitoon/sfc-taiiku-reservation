@@ -1,4 +1,4 @@
-# sfc-taiiku-auto-reservation
+# sfc-taiiku-reservation
 
 ## Overview
 
